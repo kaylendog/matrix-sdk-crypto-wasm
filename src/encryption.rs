@@ -18,6 +18,10 @@ pub struct EncryptionSettings {
     /// The encryption algorithm that should be used in the room.
     pub algorithm: EncryptionAlgorithm,
 
+    /// Whether this room has state event encryption enabled.
+    #[wasm_bindgen(js_name = "encryptStateEvents")]
+    pub encrypt_state_events: bool,
+
     /// How long the session should be used before changing it,
     /// expressed in microseconds.
     #[wasm_bindgen(js_name = "rotationPeriod")]
@@ -44,6 +48,7 @@ impl Default for EncryptionSettings {
 
         Self {
             algorithm: default.algorithm.into(),
+            encrypt_state_events: false,
             rotation_period: default.rotation_period.as_micros().try_into().unwrap(),
             rotation_period_messages: default.rotation_period_msgs,
             history_visibility: default.history_visibility.into(),

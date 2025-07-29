@@ -1,5 +1,4 @@
 //! Types to handle requests.
-
 use std::time::Duration;
 
 use js_sys::JsString;
