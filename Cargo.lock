@@ -1187,7 +1187,7 @@ dependencies = [
 [[package]]
 name = "matrix-sdk-common"
 version = "0.13.0"
-source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=e968984cd78c0e06ae0f3ba658d3a8149122325f#e968984cd78c0e06ae0f3ba658d3a8149122325f"
+source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=3eb1e7f5f81718634a65f6803c7501f2e7a03cc2#3eb1e7f5f81718634a65f6803c7501f2e7a03cc2"
 dependencies = [
  "eyeball-im",
  "futures-core",
@@ -1210,7 +1210,7 @@ dependencies = [
 [[package]]
 name = "matrix-sdk-crypto"
 version = "0.13.0"
-source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=e968984cd78c0e06ae0f3ba658d3a8149122325f#e968984cd78c0e06ae0f3ba658d3a8149122325f"
+source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=3eb1e7f5f81718634a65f6803c7501f2e7a03cc2#3eb1e7f5f81718634a65f6803c7501f2e7a03cc2"
 dependencies = [
  "aes",
  "aquamarine",
@@ -1278,7 +1278,7 @@ dependencies = [
 [[package]]
 name = "matrix-sdk-indexeddb"
 version = "0.13.0"
-source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=e968984cd78c0e06ae0f3ba658d3a8149122325f#e968984cd78c0e06ae0f3ba658d3a8149122325f"
+source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=3eb1e7f5f81718634a65f6803c7501f2e7a03cc2#3eb1e7f5f81718634a65f6803c7501f2e7a03cc2"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1306,7 +1306,7 @@ dependencies = [
 [[package]]
 name = "matrix-sdk-qrcode"
 version = "0.13.0"
-source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=e968984cd78c0e06ae0f3ba658d3a8149122325f#e968984cd78c0e06ae0f3ba658d3a8149122325f"
+source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=3eb1e7f5f81718634a65f6803c7501f2e7a03cc2#3eb1e7f5f81718634a65f6803c7501f2e7a03cc2"
 dependencies = [
  "byteorder",
  "qrcode",
@@ -1318,7 +1318,7 @@ dependencies = [
 [[package]]
 name = "matrix-sdk-store-encryption"
 version = "0.13.0"
-source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=e968984cd78c0e06ae0f3ba658d3a8149122325f#e968984cd78c0e06ae0f3ba658d3a8149122325f"
+source = "git+https://github.com/kaylendog/matrix-rust-sdk?rev=3eb1e7f5f81718634a65f6803c7501f2e7a03cc2#3eb1e7f5f81718634a65f6803c7501f2e7a03cc2"
 dependencies = [
  "base64",
  "blake3",
@@ -1792,7 +1792,7 @@ dependencies = [
 [[package]]
 name = "ruma"
 version = "0.12.5"
-source = "git+https://github.com/kaylendog/ruma?rev=dbcc6f23691610d314a2e108ca9590f7eb9a1856#dbcc6f23691610d314a2e108ca9590f7eb9a1856"
+source = "git+https://github.com/kaylendog/ruma?rev=db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6#db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6"
 dependencies = [
  "assign",
  "js_int",
@@ -1807,7 +1807,7 @@ dependencies = [
 [[package]]
 name = "ruma-client-api"
 version = "0.20.4"
-source = "git+https://github.com/kaylendog/ruma?rev=dbcc6f23691610d314a2e108ca9590f7eb9a1856#dbcc6f23691610d314a2e108ca9590f7eb9a1856"
+source = "git+https://github.com/kaylendog/ruma?rev=db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6#db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6"
 dependencies = [
  "as_variant",
  "assign",
@@ -1830,7 +1830,7 @@ dependencies = [
 [[package]]
 name = "ruma-common"
 version = "0.15.4"
-source = "git+https://github.com/kaylendog/ruma?rev=dbcc6f23691610d314a2e108ca9590f7eb9a1856#dbcc6f23691610d314a2e108ca9590f7eb9a1856"
+source = "git+https://github.com/kaylendog/ruma?rev=db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6#db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6"
 dependencies = [
  "as_variant",
  "base64",
@@ -1863,7 +1863,7 @@ dependencies = [
 [[package]]
 name = "ruma-events"
 version = "0.30.4"
-source = "git+https://github.com/kaylendog/ruma?rev=dbcc6f23691610d314a2e108ca9590f7eb9a1856#dbcc6f23691610d314a2e108ca9590f7eb9a1856"
+source = "git+https://github.com/kaylendog/ruma?rev=db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6#db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6"
 dependencies = [
  "as_variant",
  "indexmap",
@@ -1887,7 +1887,7 @@ dependencies = [
 [[package]]
 name = "ruma-html"
 version = "0.4.1"
-source = "git+https://github.com/kaylendog/ruma?rev=dbcc6f23691610d314a2e108ca9590f7eb9a1856#dbcc6f23691610d314a2e108ca9590f7eb9a1856"
+source = "git+https://github.com/kaylendog/ruma?rev=db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6#db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6"
 dependencies = [
  "as_variant",
  "html5ever",
@@ -1898,7 +1898,7 @@ dependencies = [
 [[package]]
 name = "ruma-identifiers-validation"
 version = "0.10.1"
-source = "git+https://github.com/kaylendog/ruma?rev=dbcc6f23691610d314a2e108ca9590f7eb9a1856#dbcc6f23691610d314a2e108ca9590f7eb9a1856"
+source = "git+https://github.com/kaylendog/ruma?rev=db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6#db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6"
 dependencies = [
  "js_int",
  "thiserror 2.0.12",
@@ -1907,7 +1907,7 @@ dependencies = [
 [[package]]
 name = "ruma-macros"
 version = "0.15.2"
-source = "git+https://github.com/kaylendog/ruma?rev=dbcc6f23691610d314a2e108ca9590f7eb9a1856#dbcc6f23691610d314a2e108ca9590f7eb9a1856"
+source = "git+https://github.com/kaylendog/ruma?rev=db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6#db8f2c916ecbd1b6a6e76e973db78e4be52cd9e6"
 dependencies = [
  "cfg-if",
  "proc-macro-crate",
